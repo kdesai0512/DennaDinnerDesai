@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Denna\'s Dinner Period 5</string>
+    <string-array name="options">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>

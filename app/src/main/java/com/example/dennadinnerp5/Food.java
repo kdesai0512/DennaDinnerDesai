@@ -14,4 +14,48 @@ public class Food {
         this.imageResourceID = imageResourceID;
     }
 
+    public static final Food[] breakfastFoods = {
+            new Food("Eggs", "3 eggs, 1 cheese, 1 meat omelet",
+                    8.99, R.drawable.omelet),
+            new Food("Pancakes", "3 pancakes, choice of meat, potato",
+                    7.95, R.drawable.pancakes),
+            new Food("Waffles", "Belgium waffles, whip cream, fresh fruit",
+                    7.50, R.drawable.waffles)
+    };
+
+    public String toString() {
+        return foodName;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getImageResourceID() {
+        return imageResourceID;
+    }
+
+    public void setImageResourceID(int imageResourceID) {
+        this.imageResourceID = imageResourceID;
+    }
 }
